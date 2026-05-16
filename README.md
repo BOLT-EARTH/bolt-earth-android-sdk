@@ -3,8 +3,35 @@
 BoltEarth Android SDK for EV charging integrations.
 
 ## Installation
+settings.gradle
 
-ruby pod 'BoltEarthUiSdkCore',     :podspec => 'https://raw.githubusercontent.com/debashish310/BoltEarthUiSdkCore/main/BoltEarthUiSdkCore.podspec' 
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://maven.juspay.in/jp-build-packages/hyper-sdk/")
+        }
+        maven {
+            url = uri("https://jitpack.io")
+            content {
+                excludeGroup("io.github.boltearth") // keep JitPack away from bolt-earth
+            }
+        }
+        maven {
+            url = uri("https://raw.githubusercontent.com/BOLT-EARTH/bolt-earth-android-sdk/main/releases")
+            // no content filter — let it resolve freely
+        }
+    }
+}
+
+
+build.gradle(app) 
+
+implementation("io.github.boltearth:bolt-earth-ui-sdk:1.0.0")
+
+also need to install and define @HiltAndroidApp entry point for the application instance.
 
 ## Access Requirement
 
