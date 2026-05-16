@@ -1,0 +1,36 @@
+Copyright © 2026 Bolt.Earth.
+All rights reserved.
+
+This software development kit (“SDK”), including all source code, binaries,
+frameworks, resources, APIs, documentation, designs, and related materials,
+is the proprietary and confidential property of Bolt.Earth.
+
+Unauthorized copying, modification, distribution, sublicensing, reverse
+engineering, decompilation, disassembly, publication, or disclosure of this
+SDK, in whole or in part, is strictly prohibited without prior written
+permission from Bolt.Earth.
+
+This SDK is licensed, not sold. Usage is permitted only in accordance with
+the applicable commercial agreement, integration guidelines, and licensing
+terms provided by Bolt.Earth.
+
+The SDK is intended solely for integration with authorized applications and
+services approved by Bolt.Earth. Any attempt to bypass security mechanisms,
+tamper with SDK behavior, or use the SDK in unauthorized environments may
+result in suspension of access and legal action.
+
+Bolt.Earth reserves the right to update, modify, suspend, or discontinue
+any part of the SDK or related services without prior notice.
+
+THE SDK IS PROVIDED “AS IS” WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS,
+IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR
+RELIABILITY.
+
+IN NO EVENT SHALL BOLT.EARTH BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO
+LOSS OF DATA, REVENUE, PROFITS, BUSINESS INTERRUPTION, OR SECURITY BREACHES,
+ARISING OUT OF OR RELATED TO THE USE OR INABILITY TO USE THIS SDK.
+
+For licensing, support, or partnership inquiries, contact:
+support@bolt.earth
